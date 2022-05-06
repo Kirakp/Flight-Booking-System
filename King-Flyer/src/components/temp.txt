@@ -1,0 +1,17 @@
+async function fetchUserDetails() {
+    const url =
+      "http://localhost:8080/api/user/get_details?username=" + username;
+    await axios
+      .get(url, {
+        mode: "no-cors",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json",
+          Authorization: "Bearer " + credentials.access_token,
+        },
+      })
+      .then((res) => {
+        console.log(res.data);
+        setUserDetails(res.data);
+      });
+  }

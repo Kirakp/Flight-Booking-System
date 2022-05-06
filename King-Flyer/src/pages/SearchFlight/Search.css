@@ -1,0 +1,94 @@
+.Main {
+  flex: 5;
+  background-color: #eee;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.title {
+  padding: 20px;
+  letter-spacing: 5px;
+}
+.location{
+  margin-left: 20px;
+font-weight: 500;
+}
+.textfield {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.departure {
+  margin: 10px !important;
+}
+.arrival {
+  margin-left: 10px !important;
+  margin-right: 50px !important;
+}
+.checkbox {
+  margin-left: 10px !important;
+  margin-right: 30px !important;
+}
+.icon {
+  color: rgb(79, 79, 79) !important;
+  font-size: 35px !important;
+}
+#resbtn {
+  margin-left: 10px !important;
+}
+#book {
+  /* margin-left: 10px !important; */
+  margin-top: 30px !important;
+  width: 200px !important;
+  position: absolute;
+  right: 40%;
+}
+.details {
+  margin: 20px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  position: relative;
+  background-color: white;
+  border: 1px solid rgb(147, 147, 147);
+  border-radius: 10px;
+}
+h4 {
+  font-weight: 500;
+}
+.inputField {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.radioCont {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.textfield {
+  margin-right: 20px !important;
+}
+.add {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.grid {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.makePayment {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  position: absolute;
+  width: 300px !important;
+  /* right: 50% !important; */
+  right: -40%;
+}

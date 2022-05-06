@@ -1,0 +1,74 @@
+.SideBar {
+  flex: 1;
+  background-color: #2f4050;
+  color: white;
+  position: relative;
+  min-height: 100vh;
+}
+.SideBarContainer {
+  position: fixed;
+  height: 100vh;
+  width: 220px;
+}
+.logoContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  padding: 20px 0px;
+  cursor: pointer;
+}
+.SideBar hr {
+  margin: 10px 20px;
+  /* width: 0px; */
+  height: 0px;
+  border: 0.5px solid white;
+}
+
+.SideBarList {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+.SideBarList .SideBarItem {
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.SideBarItem:hover {
+  cursor: pointer;
+  background-color: #293846;
+}
+.SideBarList #active {
+  background-color: #293846;
+}
+.SideBarItem #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.SideBarItem #title {
+  flex: 70%;
+  color: white;
+  font-weight: 400;
+}
+.button {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+}

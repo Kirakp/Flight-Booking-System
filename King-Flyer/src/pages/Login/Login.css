@@ -1,0 +1,47 @@
+.Main {
+  flex: 5;
+  background-color: #eee;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.title {
+    padding: 20px;
+    letter-spacing: 5px;  
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 300px;
+  height: 50%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.btn {
+  margin-top: 40px !important;
+}
+.register{
+    margin-top: 20px !important;
+}
+.divider{
+    margin-top: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider hr{
+    height: 0;
+    width: 100px;
+    border: 0.25px solid rgb(150, 150, 150);
+}
+.divider h5{
+    padding: 0px 20px;
+    color: rgb(91, 91, 91);;
+}

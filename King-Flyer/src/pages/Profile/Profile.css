@@ -1,0 +1,85 @@
+.Main {
+  flex: 5;
+  background-color: #eee;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.title {
+  padding: 20px;
+  letter-spacing: 5px;
+}
+hr {
+  width: 100%;
+  border: 0.25px solid #eee;
+  margin-bottom: 20px;
+}
+.profileContainer {
+  display: flex;
+}
+.viewProfileContainer {
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  height: auto;
+}
+.viewTitle {
+  padding: 10px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.editProfileContainer {
+  flex: 2;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  height: auto;
+}
+.editTitle {
+  padding: 10px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.viewUsername {
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.name {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+.lastname,
+.firstname {
+  font-weight: 400;
+  margin-right: 10px;
+}
+.contactDetails,
+.addressDetails {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.contactDetails > h2,
+.addressDetails > h2 {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: -0px;
+}
+.contactDetails>h3,.addressDetails >h3 {
+  font-weight: 400;
+  margin: 0;
+  margin-left: 10px; 
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.editIcon{
+    margin-left: 30px !important;
+}
